@@ -7,7 +7,7 @@ Four basic arithmetic operators that were implemented:
 3) multiplication --> [a, b] · [c, d] = [min(ac, ad, bc, bd), max(ac, ad, bc, bd)],
 4) divison --> [a, b] / [c, d] = [min(a/c, a/d, b/c, b/d), max(a/c, a/d, b/c, b/d)]
 
-Besides these basic arithmetic operations,  the power functions of intervals [a, b]^n is implemented as well. 
+Besides these basic arithmetic operations,  the power functions of intervals [a, b]<sup>n</sup> is implemented as well. 
 If n is odd, power function is implemented as follows:
 [a, b]<sup>n</sup> = [a<sup>n</sup>, b<sup>n</sup>]
 
