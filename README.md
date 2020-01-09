@@ -9,10 +9,10 @@ Four basic arithmetic operators that were implemented:
 
 Besides these basic arithmetic operations,  the power functions of intervals [a, b]^n is implemented as well. 
 If n is odd, power function is implemented as follows:
-[a, b]^n = [a^n, b^n]
+[a, b]<sup>n</sup> = [a<sup>n</sup>, b<sup>n</sup>]
 
 If n is even, we have:
-[a, b]^n = [a^n, b^n] for a>=0;
-[a, b]^n = [b^n, a^n] for b<0;
-[a, b]^n = [0, max(a^n, b^n)] othervise.
+[a, b]<sup>n</sup> = [a<sup>n</sup>, b<sup>n</sup>] for a>=0;
+[a, b]<sup>n</sup> = [b<sup>n</sup>, a<sup>n</sup>] for b<0;
+[a, b]<sup>n</sup> = [0, max(a<sup>n</sup>, b<sup>n</sup>)] othervise.
 
